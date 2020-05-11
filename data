@@ -1,0 +1,13 @@
+python is usually used on the server.
+Local time zone on a server is usually pointless and should always be set to UTC.
+Setting datetime tzinfo this way fails in some cases.
+better use UTC, then localize to the wanted timezone only on output.
+any timedelta computation for example doesn't consider daylight saving, so these should be done in UTC, then localized.
+ – MrE Sep 13 '17 at 18:34
+@MrE Wrong, offtopic, examples? – Antony Hatchkins Sep 15 '17 at 5:02
+
+try using a datetime object localized in a timezone that observes daylight saving, add a number of days to change daylight saving state, and you'll see that operating on datetime objects in localized timezone fails and won't respect daylight saving.
+Hence my comment that you should ALWAYS do any datetime operation in UTC time. 
+– MrE Sep 15 '17 at 5:07 
+the point being: don't do this, do your operations in UTC, and then use datetime.astimezone(timezone) to convert to the localtime zone on output.
+ – MrE Sep 15 '17 at 5:10

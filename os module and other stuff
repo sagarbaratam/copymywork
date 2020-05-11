@@ -1,0 +1,136 @@
+with open("out.txt",'r') as lfile:
+...     for line in lfile:
+...             try:
+...                print(line.split()[8])
+...             except IndexError:
+...                print
+
+
+
+
+
+
+
+with os.scandir('.') as path:
+...     for entry in path:
+...         if entry.is_file():
+...             print(entry)
+...
+
+
+
+
+
+
+with os.scandir('.') as path:
+...     for entry in path:
+...         if entry.is_dir():
+...             print(entry)
+
+
+
+
+
+
+
+
+#1. Turn off wifi on your macbook from the Mac OSX terminal command line:
+
+> networksetup -setairportpower en0 off
+#2. Turn on wifi on your macbook from the Mac OSX terminal command line:
+
+> networksetup -setairportpower en0 on
+#3. List available wifi networks from the Mac OSX terminal command line:
+
+> /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport scan
+#4. Join a wifi network from the Mac OSX terminal command line:
+
+> networksetup -setairportnetwork en0 WIFI_SSID_I_WANT_TO_JOIN WIFI_PASSWORD
+#5. Find your network interface name:
+
+> networksetup -listallhardwareports
+Once you know how, it's easy to use the mac terminal WiFi commands. Not sure why they're buried in the OSX documentation so deeply, but hopefully this is helpful to someome.
+
+
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I
+
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I|grep -w "SSID"
+
+
+/opt/cisco/anyconnect/bin/vpn state -- to get vpn connection status
+
+
+
+9845571530  -- oyo room banglore
+
+
+
+OS MODULE :   https://docs.python.org/3/library/os.html
+
+
+
+
+os.rename(fd,'JournalDev_Hi.txt')
+os.system("users > users.txt")
+os.getpid()
+os.listdir()
+os.uname()
+os.remove("text2.txt")
+os.mkdir("newdir")
+os.chdir("newdir")
+os.getcwd()
+os.rmdir('dirname')
+os.path.isdir(fullPath)
+os.walk(path)
+os.umask(mask)
+os.path.join(dirpath, file)
+os.environ()
+os.ctermid()
+os.environb()
+os.getenv(key, default=None)
+os.getenvb(key, default=None)
+os.get_exec_path(env=None)
+os.getegid()
+os.geteuid()
+os.getgrouplist(user, group)
+os.getgroups()
+os.getlogin()
+os.getpgid(pid)
+os.getpgrp()
+os.getpriority(which, who)
+os.getpid()
+os.getppid()
+os.getresuid()
+os.getresgid()
+os.initgroups(username, gid)
+os.putenv(key, value)
+os.setegid(egid)
+os.seteuid(euid)
+os.setgid(gid)
+os.setpriority(which, who, priority)
+os.setregid(rgid, egid)
+os.strerror(code)
+os.unsetenv(key)
+os.fdopen(fd, *args, **kwargs)
+os.close(fd)
+os.closerange(fd_low, fd_high)
+os.copy_file_range(src, dst, count, offset_src=None, offset_dst=None)
+os.device_encoding(fd)
+os.dup(fd)
+os.fchmod(fd, mode)
+os.fchown(fd, uid, gid)
+fstat(fd)
+fstatvfs(fd)
+fsync(fd)
+ftruncate(fd, length)
+os.lstat(path, *, dir_fd=None)
+
+
+
+
+
+
+
+
+process thread count.py:
+

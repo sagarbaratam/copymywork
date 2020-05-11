@@ -1,0 +1,13 @@
+---
+- hosts: all
+  strategy: free
+  become: yes
+  become_method: sudo
+  tasks:
+   - name: Get the heartbeat state 
+     shell: "/opt/deployasaurus/heartbeat verify|tail -1|cut -d ':' -f 6"
+     register: heartbeat
+
+   - debug:
+      msg: "{{ansible_nodename}}:{{heartbeat.stdout}}"
+      

@@ -1,0 +1,18 @@
+Shell scripting :
+
+
+grep -iR 
+
+
+
+positional arguments:
+./script.sh Hello World
+$0 = ./script.sh
+$1 = Hello
+$2 = World 
+
+
+https://bash.cyberciti.biz/guide/Setting_shell_options
+
+use set -x to get the debug mode of the script  
+
