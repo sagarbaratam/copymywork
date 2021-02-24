@@ -40,8 +40,26 @@ Group: name="apache" id=48
 [root@stapp03 banner]# systemctl start httpd
 [root@stapp03 banner]# curl http://172.16.238.10:5003/
 Welcome to xFusionCorp Industries !
-
 5. Modified the file as per the syntax errors and restarted the httpd service with systemctl start httpd resolved the issue.
 
 
 problem 2:
+
+As per details shared by the development team, the new application release has some dependencies on the back end. 
+There are some packages/services that need to be installed on all app servers under Stratos Datacenter. 
+As per requirements please perform the following steps:
+a. Install httpd package on all the application servers.
+b. Once installed, make sure it is enabled to start during boot.
+
+Solution:
+
+steps:
+1.checked the package is installed or not with below commands
+yum list installed|grep httpd
+or
+rpm -qa|grep httpd
+2.Install the package and enable it.
+yum install httpd -y
+systemctl enable httpd
+systemctl start httpd
+systemctl status httpd
