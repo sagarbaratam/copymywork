@@ -90,9 +90,11 @@ Disabled
 
 Detailed concept: https://www.digitalocean.com/community/tutorials/an-introduction-to-selinux-on-centos-7-part-1-basic-concepts
 https://www.digitalocean.com/community/tutorials/an-introduction-to-selinux-on-centos-7-part-2-files-and-processes
-Solution:
 
-I failed in this task, its under review.
+Solution:
+install selinux packages with the below command and set the SELinux mode to disabled in /etc/selinux/config file. 
+
+yum install -y  policycoreutils policycoreutils-python selinux-policy selinux-policy-targeted libselinux-utils setroubleshoot-server setools setools-console mcstrans
 
 
 
