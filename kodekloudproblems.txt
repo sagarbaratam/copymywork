@@ -98,6 +98,26 @@ yum install -y  policycoreutils policycoreutils-python selinux-policy selinux-po
 
 
 
+Problem 4:
+
+Install cronie and start crond and create a cronjob */5 * * * * echo hello > /tmp/cron_text for root user.
+
+
+Trivia:
+syntax of crontab
+[Minute] [hour] 
+[Day_of_the_Month] 
+[Month_of_the_Year] 
+[Day_of_the_Week] 
+[command]
+
+Solution:
+yum install -y cronie
+systemctl status crond
+systemctl start crond
+systemctl status crond
+crontab -e and add */5 * * * * echo hello > /tmp/cron_text
+
 
 
 
