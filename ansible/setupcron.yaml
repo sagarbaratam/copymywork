@@ -1,0 +1,21 @@
+---
+- hosts: localhost
+  strategy: free
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: Install cronie 
+      yum:
+        name: cronie
+        state: present
+    - name: Start crond service
+      service:
+        name: crond
+        state: started
+    - name: Add the crontab entry
+      cron: 
+        minute: "*/5"
+        hour: "*"
+        job: "echo hello > /tmp/cron_text"
+      when: ansible_crond.status == "started"
+
