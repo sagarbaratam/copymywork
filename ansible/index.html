@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<% import datetime
-print datetime.date.today().strftime("%d:%m:%y") 
-	%>
-</html>
+<head>
+<title>run my python files</title>
+<?PHP
+echo shell_exec("python test.py 'date'");
+?>
+</head>
