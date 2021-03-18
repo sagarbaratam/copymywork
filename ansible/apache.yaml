@@ -1,0 +1,17 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: install httpd
+      package:
+        name: httpd
+        state: present
+    - name: copy code
+      copy:
+          src: /home/jenkins/Methodtomadness/ansible/index.html
+          dest: "/var/www/html/index.html"
+    - name: start httpd
+      service:
+          name: httpd
+          state: started
