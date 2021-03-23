@@ -5,7 +5,8 @@ pipeline {
         stage('Source') { // Get code
             steps {
                 // get code from our Git repository
-                git branch:'apache-dep',https://github.com/sagarbaratam/Methodtomadness.git'
+                git branch:'apache-dep',
+		       url:'https://github.com/sagarbaratam/Methodtomadness.git'
             }
         }
         stage('Compile') { // Compile and do unit testing
