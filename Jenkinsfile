@@ -3,7 +3,6 @@ pipeline {
     agent {label 'first node'}
     triggers {
 	//Execute when either job1 or job2 are successful
-	pollSCM(*/1 * * * *)
 	upstream(upstreamProjects: 'firstansjob', threshold: hudson.model.Result.SUCCESS)
 	   }	
     stages {
