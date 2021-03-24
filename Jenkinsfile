@@ -11,6 +11,19 @@ pipeline {
                 echo "Active user is now ${params.USERID}"
             }
         }
+        stage ('Test') {
+       // execute required unit tests in parallel
+
+   parallel (
+      master: { node ('master'){
+         sh 'date'
+      }},
+      worker2: { node ('first node'){
+         sh 'java --version'
+      }},
+   )
+}
+
         stage('Source') { // Get code
             steps {
                 // get code from our Git repository
