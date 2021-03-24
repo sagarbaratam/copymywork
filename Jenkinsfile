@@ -1,14 +1,14 @@
 // Declarative Pipeline
 pipeline {
-    agent {label 'first node'}
+    agent {label 'master'}
     parameters {
         string(name: 'USERID', defaultValue: '', 
          description: 'Enter your userid')
     }
-    triggers {
-	//Execute when either job1 or job2 are successful
-	upstream(upstreamProjects: 'firstansjob', threshold: hudson.model.Result.SUCCESS)
-	   }	
+#   triggers {
+#	//Execute when either job1 or job2 are successful
+#	upstream(upstreamProjects: 'firstansjob', threshold: hudson.model.Result.SUCCESS)
+#	   }	
     stages {
         stage('Login') {
             steps {
