@@ -1,4 +1,4 @@
-stages {
+stage {
    
    stage('Source') {
       git branch: 'test', url: 'git@diyv:repos/gradle-greetings'
