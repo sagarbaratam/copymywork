@@ -6,7 +6,7 @@ stage ('Test') {
          sh 'date'
       }},
       worker2: { node ('first node'){
-         sh 'dmidecode'
+         sh 'uname -r'
       }},
    )
 }
