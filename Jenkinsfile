@@ -1,6 +1,6 @@
-stage {
-   
-   stage('Source') {
+pipeline {
+      
+      stage('Source') {
       git branch: 'test', url: 'git@diyv:repos/gradle-greetings'
       stash name: 'test-source', includes: '/home/ec2-user/test.txt'
    }
