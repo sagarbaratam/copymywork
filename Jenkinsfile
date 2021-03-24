@@ -5,7 +5,7 @@ stage ('Test') {
       master: { node ('master'){
          sh 'date'
       }},
-      worker2: { node ('worker_node2'){
+      worker2: { node ('first node'){
          sh 'dmidecode'
       }},
    )
