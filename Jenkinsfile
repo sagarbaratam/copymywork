@@ -4,11 +4,7 @@ pipeline {
     parameters {
         string(name: 'USERID', defaultValue: '', 
          description: 'Enter your userid')
-    }
-#   triggers {
-#	//Execute when either job1 or job2 are successful
-#	upstream(upstreamProjects: 'firstansjob', threshold: hudson.model.Result.SUCCESS)
-#	   }	
+    }	
     stages {
         stage('Login') {
             steps {
