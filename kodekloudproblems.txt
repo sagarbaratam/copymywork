@@ -139,3 +139,197 @@ Make use of the approved template located at /home/thor/nautilus_banner on jump 
 Solution:
 
 Edit the /etc/motd file 
+
+The Nautilus system admins team recently deployed a web UI application for their backup utility running on the Nautilus backup server in Stratos Datacenter.
+The application is running on port 5001. 
+They have firewalld installed on that server. 
+The requirements that have come up include the following:
+Open all incoming connection on 5001/tcp port. Zone should be public.
+
+Solution:
+
+      firewall-cmd
+    2  firewall-cmd --get-active-zones
+    3  firewall-cmd --get-services
+    4  clear
+    5  firewall-cmd --zone=public --list-all
+    6  firewall-cmd --permanent --zone=public --add-port=5001/tcp
+    7  firewall-cmd --zone=public --list-all
+    8  firewall-cmd --zone=public --list-ports
+    9  firewall-cmd --zone=public --list-ports
+   10  firewall-cmd --permanent --zone=public --remove-port=5001/tcp
+   11  firewall-cmd --zone=public --list-ports
+   12  firewall-cmd --permanent --zone=public --add-port=5001/tcp
+   13  firewall-cmd --list-all
+   14  firewall-cmd --reload
+   15  firewall-cmd --reload
+   16  firewall-cmd --zone=public --list-ports
+
+   [root@stapp01 nginx]# grep -i listen /etc/nginx/nginx.conf
+[root@stapp01 nginx]#grep -i listen /etc/httpd/conf/httpd.conf
+
+ss -tnlp
+[root@stapp01 nginx]# grep -i listen /etc/nginx/nginx.conf
+[root@stapp01 nginx]#grep -i listen /etc/httpd/conf/httpd.conf
+
+Replace all occurances of the string Text to Maritime on the XML file /root/nautilus.xml located in the backup server.
+
+sed -i 's/Text/Maritime/g' /root/nautilus.xml
+
+
+
+The Nautilus production support team was trying to fix issues with their storage server. 
+The storage server has a shared directory /nfsshare, which is mounted on all app servers at location /var/www/html so that whatever data they store on storage server under /nfsshare can be shared among all app servers. 
+Somehow NFS server is broken and having some issues.
+
+
+Identify the root cause of the issue and fix it to make sure sharing works fine among all app servers and storage server.
+
+create a user named mariyam on the App Server 3.
+Set expiry date to 2021-02-17 in Stratos Datacenter.
+Make sure the user is created as per standard and is in lowercase.
+
+Solution:
+sudo useradd -e yyyy-mm-dd username
+
+Create a user named kirsty in App Server 3 without a home directory.
+
+Solution:
+
+sudo adduser -M kirsty
+
+
+There is a critical issue going on with the Nautilus application in Stratos DC. 
+The production support team identified that the application is unable to connect to the database. 
+After digging into the issue, the team found that mariadb service is down on the database server.
+Look into the issue and fix the same.
+
+Solution:
+Identified the configuration file which is in /etc/my.cnf and from that identified the ErrorLog.
+From that identified the Permissiondeined error and then checked the permission and changed the ownership.
+started the mariadb service.
+
+[root@stdb01 mysql]# cat /etc/my.cnf
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+# Settings user and group are ignored when systemd is used.
+# If you need to run mysqld under a different user or group,
+# customize your systemd unit file for mariadb according to the
+# instructions in http://fedoraproject.org/wiki/Systemd
+
+[mysqld_safe]
+log-error=/var/log/mariadb/mariadb.log
+pid-file=/var/run/mariadb/mariadb.pid
+
+#
+# include all files from the config directory
+#
+!includedir /etc/my.cnf.d
+
+[root@stdb01 mysql]# cat /var/log/mariadb/mariadb.log
+210317 08:48:25 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+210317  8:48:25 [Note] /usr/libexec/mysqld (mysqld 5.5.64-MariaDB) starting as process 372 ...
+210317  8:48:25 InnoDB: The InnoDB memory heap is disabled
+210317  8:48:25 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210317  8:48:25 InnoDB: Compressed tables use zlib 1.2.7
+210317  8:48:25 InnoDB: Using Linux native AIO
+210317  8:48:25 InnoDB: Initializing buffer pool, size = 128.0M
+210317  8:48:25 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+210317  8:48:25  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+210317  8:48:25  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+210317  8:48:25  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+210317  8:48:25 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 0
+210317  8:48:25 [Note] Plugin 'FEEDBACK' is disabled.
+210317  8:48:25 [Note] Server socket created on IP: '0.0.0.0'.
+210317  8:48:25 [ERROR] mysqld: Can't create/write to file '/var/run/mariadb/mariadb.pid' (Errcode: 13)
+210317  8:48:25 [ERROR] Can't start server: can't create PID file: Permission denied
+210317 08:48:25 mysqld_safe mysqld from pid file /var/run/mariadb/mariadb.pid ended
+210317 09:00:24 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+210317  9:00:24 [Note] /usr/libexec/mysqld (mysqld 5.5.64-MariaDB) starting as process 662 ...
+210317  9:00:24 InnoDB: The InnoDB memory heap is disabled
+210317  9:00:24 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+210317  9:00:24 InnoDB: Compressed tables use zlib 1.2.7
+210317  9:00:24 InnoDB: Using Linux native AIO
+210317  9:00:24 InnoDB: Initializing buffer pool, size = 128.0M
+210317  9:00:24 InnoDB: Completed initialization of buffer pool
+210317  9:00:24 InnoDB: highest supported file format is Barracuda.
+210317  9:00:24  InnoDB: Starting crash recovery from checkpoint LSN=50037
+InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+210317  9:00:24  InnoDB: Starting final batch to recover 9 pages from redo log
+210317  9:00:24  InnoDB: Waiting for the background threads to start
+210317  9:00:25 Percona XtraDB (http://www.percona.com) 5.5.61-MariaDB-38.13 started; log sequence number 1597945
+210317  9:00:25 [Note] Plugin 'FEEDBACK' is disabled.
+210317  9:00:25 [Note] Server socket created on IP: '0.0.0.0'.
+210317  9:00:25 [ERROR] mysqld: Can't create/write to file '/var/run/mariadb/mariadb.pid' (Errcode: 13)
+210317  9:00:25 [ERROR] Can't start server: can't create PID file: Permission denied
+210317 09:00:25 mysqld_safe mysqld from pid file /var/run/mariadb/mariadb.pid ended
+[root@stdb01 mysql]# ls -ld /var/run/mariadb
+drwxr-xr-x 2 root mysql 40 Mar 17 08:27 /var/run/mariadb
+[root@stdb01 mysql]# chown mysql:mysql /var/run/mariadb
+[root@stdb01 mysql]# ls -ld /var/run/mariadb
+drwxr-xr-x 2 mysql mysql 40 Mar 17 08:27 /var/run/mariadb
+[root@stdb01 mysql]# systemctl start mariadb
+[root@stdb01 mysql]# systemctl status mariadb
+● mariadb.service - MariaDB database server
+   Loaded: loaded (/usr/lib/systemd/system/mariadb.service; disabled; vendor preset: disabled)
+   Active: active (running) since Wed 2021-03-17 09:06:54 UTC; 7s ago
+  Process: 745 ExecStartPost=/usr/libexec/mariadb-wait-ready $MAINPID (code=exited, status=0/SUCCESS)
+
+[root@stdb01 mysql]# history
+    1  systemctl status mariadb
+    2  systemctl start mariadb
+    3  cd /var/lib/mysql
+    4  ls -lrt
+    5  systemctl status mysql.service
+    6  systemctl status mysqld
+    7  systemctl start mysqld
+    8  systemctl status mariadb.service
+    9  systemctl status mariadb.service -l
+   10  ls -rt
+   11  ls -lrt
+   12  cat mariadb.service: control process e
+   13  cat ib_logfile0
+   14  clear
+   15  ls -lrt
+   16  cd mysql
+   17  ls -lrt
+   18  sudo mysql_install_db --user=mysql
+   19  systemctl start mysqld
+   20  systemctl status mysql.service
+   21  systemctl status mariadb
+   22  systemctl start mariadb
+   23  ls -lrt
+   24  cat /etc/mysql/my.cnf
+   25  cd /etc/my.cnf
+   26  cat /etc/my.cnf
+   27  cat /var/log/mariadb/mariadb.log
+   28  ls -ld /var/run/mariadb
+   29  chown mysql:mysql /var/run/mariadb
+   30  ls -ld /var/run/mariadb
+   31  systemctl start mariadb
+   32  systemctl status mariadb
+   33  history
+[root@stdb01 mysql]# 
+
+
+
+https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+
+
+
+

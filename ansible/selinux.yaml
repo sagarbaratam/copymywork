@@ -1,3 +1,70 @@
 
----
-- command: 
+--- 
+ hosts: all
+ become_user: root 
+ become_method: sudo 
+ tasks:
+  - name: Copy the sshd_config files
+    copy:
+     src: /etc/ssh/sshd_config
+     dest: /etc/ssh/sshd_config
+  
+  - name: copying .ssh folders
+    copy: 
+      src: /home/"{{item}}"/.ssh
+      dest: /home/"{{item}}"/.ssh
+      with_items:
+        - oracle
+        - snmscp
+        - jboss
+        - vzpvdds
+        - cfuser 
+        
+  - name: Install TIBCO MFT version 7.2
+    yum:
+      name: "{{ item }}"
+      state: present
+      with_items: 
+        - VZMFTcfg-1.0_ssidply-Linux.noarch
+        - VZMFT-7.2-Linux_005.rpm
+
+  - name: Verify the packages are present 
+    shell: "rpm -qa|grep MFT" 
+    register: package_output
+
+  - debug: msg="{{package_output.stdout}}"
+
+  - name: Verify cfuser creation
+    user: cfuser
+    uid: 46001
+    gid: 40558
+    groups: cfuser,ddl 
+    state: present 
+
+  - name: copy the files to mftps/configs directory
+    copy: 
+      src: /apps/opt/mftps/config/{{item}}
+      dest: /apps/opt/mftps/config
+      with_items: 
+        - cfprofile.cfg
+        - cfnode.cfg
+        - cfrprofile.cfg
+    
+   - name: update profile
+     lineinfile:
+       dest: ~/.profile
+       state: present
+       line: "{{item}}"
+       with_items:
+        - 'export CFROOT = /apps/opt/mftps'
+        - 'export PATH = /opt/apps/vvds/bin:$PATH'
+
+   - name: checkout git
+     git: 
+      repo: https://gitlab..
+      dest: /tmp/cron
+      clone: yes
+      
+
+
+  
