@@ -5,3 +5,5 @@ def email(n):
         emails.append(input())
     return emails
 email(n)
+
+
