@@ -25,13 +25,13 @@ class validate:
 
     def display(self,outlist):
 	for certs in outlist:
-		print(' \n')
-        print("SAN Entries: {}".format(self.Convert(certs['subjectAltName'],dictionary)))
-       	print("notBefore: {}".format(str(certs['notBefore'])))
-        print("notAfter: {}".format(str(certs['notAfter'])))
-        print("serialNumber: {}".format(certs['serialNumber']))
-		dictionary.clear()
-        print(' \n')
+	    print(' \n')
+            print("SAN Entries: {}".format(self.Convert(certs['subjectAltName'],dictionary)))
+       	    print("notBefore: {}".format(str(certs['notBefore'])))
+       	    print("notAfter: {}".format(str(certs['notAfter'])))
+            print("serialNumber: {}".format(certs['serialNumber']))
+	    dictionary.clear()
+            print(' \n')
         
 
 validate = validate(argumentList)
