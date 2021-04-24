@@ -3,6 +3,7 @@
 import sys
 import socket,ssl
 argumentList= sys.argv
+outlist = []
 dictionary = {}
 class validate:
     def __init__(self,argumentList):
@@ -13,27 +14,28 @@ class validate:
         socks = socket.socket()
         sock = ctx.wrap_socket(socks, server_hostname=target_url)
         sock.connect((target_url, 443))
-        certs = sock.getpeercert()
-    
+        cert = sock.getpeercert()
+	outlist.append(cert)
+
     def Convert(self,tup, di):
-        dictionary = {}
         for a, b in tup:
             di.setdefault(a, []).append(b)
         return di
 
 
-    def display(self):
-        #print(self.certs)
-        print("SAN Entries: {}".format(self.Convert(self.certs['subjectAltName'],dictionary)))
-        print("notBefore: {}".format(str(self.certs['notBefore'])))
-        print("notAfter: {}".format(str(self.certs['notAfter'])))
-        print("serialNumber: {}".format(self.certs['serialNumber']))
+    def display(self,outlist):
+	for certs in outlist:
+		print(' \n')
+        print("SAN Entries: {}".format(self.Convert(certs['subjectAltName'],dictionary)))
+       	print("notBefore: {}".format(str(certs['notBefore'])))
+        print("notAfter: {}".format(str(certs['notAfter'])))
+        print("serialNumber: {}".format(certs['serialNumber']))
+		dictionary.clear()
+        print(' \n')
+        
 
 validate = validate(argumentList)
-validate.display()
-
-
-        
+validate.display(outlist)
         
 ## print ("subject:",dict(x[0] for x in certs['subject']))--- interesting one--
         
