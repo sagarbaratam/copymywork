@@ -1,0 +1,37 @@
+---
+#this takes values from defaults/main.yml
+- name: Set repos to use 
+  set_fact: 
+    rhel_repo: "{{yum[ansible_distribution]['repo']}}"
+
+#this takes values from defaults/main.yml
+- name: Set yum repos to exclude
+  set_fact:
+    yum_exclude: "{{yum[ansible_distribution]['excludes']}}"
+  when: yum_exclude is not defined
+
+- name: Update all
+  become: yes
+  yum: 
+    name: '*'
+    state: latest
+    update_cache: yes
+    exclude: "{{yum_exclude}}"
+    disbalerepo: '*'
+#    enablerepo: "{{rhel_repo |default('rhel-x86_64-server-6')}}"
+ 
+- name: Check number of kernels installed
+  shell: rpm -q kernel|wc -l
+  register: res
+  changed_when: False
+  args:
+    warn: False
+
+- name: Clean old kernels
+  become: yes
+  command: package-cleanup --oldkernels --count=2 -y
+  when: res.stdout|int >2
+
+
+
+

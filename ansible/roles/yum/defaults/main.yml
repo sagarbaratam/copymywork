@@ -1,0 +1,21 @@
+---
+
+yum:
+  Redhat:
+    '8':
+    repo: 'rhel-8-appstream-rhui-rpms,rhel-8-baseos-rhui-rpms,rhui-client-config-server-8-ha,rhui-rhel-8-for-x86_64-highavailability-rhui-rpms'
+    excludes: 'http*,java*,ssl*'
+
+    '7':
+    repo: 'rhel-7-server-extras-rpms,rhel-7-server-optional-rpms,rhel-7-server-rhscl-rpms,rhel-7-server-rpms'
+    excludes: 'http*,java*,ssl*'
+
+    Centos:
+      '7':
+      repo: 'centos-7-extras-rpms,centos-7-server-rpms,centos-7-update-rpms'
+      excludes: 'httpd*,java-*,mod_ssl*'
+
+
+
+
+

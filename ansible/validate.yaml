@@ -1,0 +1,49 @@
+---
+- hosts: all
+  strategy: free
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: Get the keytool location
+      shell: "locate keytool|head -n 1"
+      register: keytool
+      no_log: True
+
+    - name: Get the Keystore password
+      shell: "cat /opt/app/config/keystore_password.txt"
+      register: keystore_password
+      no_log: True
+      tags: keystore
+
+    - name: Keystore Validation
+      command: "{{keytool.stdout}} -list -v -keystore /opt/app/config/keystore.jks -storepass {{keystore_password.stdout}}"
+      register: result
+      no_log: True
+      tags: keystore
+
+    - name: Get the rabbit password
+      shell: "cat /opt/app/config/rabbit_password.txt"
+      register: rabbit_password
+      no_log: True
+      tags: rabbit
+
+    - name: Rabbit Validation
+      command: "{{keytool.stdout}} -list -v -keystore /opt/app/config/rabbit.p12 -storepass {{rabbit_password.stdout}}"
+      register: result
+      no_log: True
+      tags: rabbit
+
+    - set_fact:
+         basic: "{{result.stdout_lines| select('match','^[^#,  \\t\\]\\[*00BEA]')|list}}"
+      register: basic
+      no_log: True
+
+    - debug:
+        msg: "{{basic|select('match','^((?! \\[).)*$') |list}}"
+
+    - name: Get the heartbeat state
+      shell: "/opt/deployasaurus/heartbeat verify|tail -1|cut -d ':' -f 6"
+      register: heartbeat
+    
+    - debug:
+        msg: "{{ansible_nodename}}:{{heartbeat.stdout}}"

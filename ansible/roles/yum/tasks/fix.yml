@@ -1,0 +1,38 @@
+---
+- name: perform yum steps
+  become: yes
+  block: 
+    - name: Test yum functionality
+      command: yum repolist
+      changed_when: False
+      args:
+        warn: no
+
+  rescue:
+    - name: Find rpm rpm_db
+      find:
+        paths: /opt/rpms
+        patterns: "__db*"
+        use_regex: True
+      register: rpm_db
+
+    - name: Remove rpm_db files
+      file:
+       path: "{{ item.path }}"
+       state: absent
+      with_items: rpm_db
+
+   - name: Rebuild rpm db
+     become: yes
+     command: rpm --rebuilddb
+     args:
+        warn: False
+
+   - name: Rebuild yum cache
+     become: yes
+     command: yum clean all
+     args:
+        warn: False
+        
+
+    

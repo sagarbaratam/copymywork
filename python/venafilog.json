@@ -1,0 +1,2953 @@
+
+
+{
+    "Certificates": [
+        {
+            "CreatedOn": "2017-09-24T06:49:44.3730954Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-cfbatchatg",
+            "Guid": "{5962be6d-53a9-453a-b429-e16c609dedb3}",
+            "Name": "bby-s-cfbatchatg",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-cfbatchatg",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000667342C07710B5772B15000000006673",
+                "Thumbprint": "FEBC4D67A5D4AF17D7BC6664679EF254D31B8FB2",
+                "ValidFrom": "2020-05-14T11:07:59.0000000Z",
+                "ValidTo": "2021-06-08T11:07:59.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b5962be6d-53a9-453a-b429-e16c609dedb3%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:49:50.4849258Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\UGC-LOYALTY-PUBLISH",
+            "Guid": "{50cbe7da-026d-4e09-9cb5-a2a9f08affdb}",
+            "Name": "UGC-LOYALTY-PUBLISH",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "UGC-LOYALTY-PUBLISH",
+                "SANS": {
+                    "DNS": [
+                        "UGC-LOYALTY-PUBLISH"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006D4CB42F2C6DE8343589000000006D4C",
+                "Thumbprint": "8CBDBAB593E00376BB131989CDA18252B855AB70",
+                "ValidFrom": "2020-06-12T20:16:34.0000000Z",
+                "ValidTo": "2021-07-07T20:16:34.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b50cbe7da-026d-4e09-9cb5-a2a9f08affdb%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:49:56.5942305Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-configadmin",
+            "Guid": "{d49726ba-9de5-4b27-aed2-997f1d5d81d9}",
+            "Name": "bby-s-configadmin",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-configadmin",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000085FAEAB759621513C6DC0000000085FA",
+                "Thumbprint": "16153E16AF4BB9D761E48014ADE8B9D9B4E6A5C3",
+                "ValidFrom": "2021-04-20T12:49:32.0000000Z",
+                "ValidTo": "2022-05-15T12:49:32.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bd49726ba-9de5-4b27-aed2-997f1d5d81d9%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:49:59.6258851Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-configread",
+            "Guid": "{fd23be79-bc93-4383-880e-b51d74e01d55}",
+            "Name": "bby-s-configread",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-configread",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000085F9BFCDBCAB2984DBEA0000000085F9",
+                "Thumbprint": "6ED81785D824F708850D92A7F73D183C91CECDC0",
+                "ValidFrom": "2021-04-20T12:45:09.0000000Z",
+                "ValidTo": "2022-05-15T12:45:09.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfd23be79-bc93-4383-880e-b51d74e01d55%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:50:02.7352640Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-scan-publisher",
+            "Guid": "{8fd94964-68fe-4b15-87a3-1d8d82752ec6}",
+            "Name": "bby-s-scan-publisher",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-scan-publisher",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-scan-publisher"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000873B9C2AEE02C99108B800000000873B",
+                "Thumbprint": "8B3D08A4766EC985AA89128DCEC727D70DAF040B",
+                "ValidFrom": "2021-04-22T10:11:37.0000000Z",
+                "ValidTo": "2022-05-17T10:11:37.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b8fd94964-68fe-4b15-87a3-1d8d82752ec6%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:50:05.7508759Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-span-publisher",
+            "Guid": "{ddd8672d-e986-49c5-bbe2-97b19617245a}",
+            "Name": "bby-s-span-publisher",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-span-publisher",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000085F4A5D58434CCC60C6F0000000085F4",
+                "Thumbprint": "7CFBB2A8471ED2174A819E3436BC0C2E604828B6",
+                "ValidFrom": "2021-04-20T09:39:28.0000000Z",
+                "ValidTo": "2022-05-15T09:39:28.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bddd8672d-e986-49c5-bbe2-97b19617245a%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:50:37.3306425Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-button",
+            "Guid": "{350386dd-3fa2-46bf-9b0b-3172102c8dfa}",
+            "Name": "bby-s-button",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-button",
+                "SANS": {
+                    "DNS": [
+                        "button.dr.bestbuy.com",
+                        "button.prod.bestbuy.com",
+                        "drl12btnapp101",
+                        "drl12btnapp101-m.bby",
+                        "drl12btnapp102",
+                        "drl12btnapp102-m.bby",
+                        "pdl11btnapp101",
+                        "pdl11btnapp101-m.bby",
+                        "pdl11btnapp102",
+                        "pdl11btnapp102-m.bby",
+                        "pdl11btnapp103",
+                        "pdl11btnapp103-m.bby",
+                        "pdl11btnapp104",
+                        "pdl11btnapp104-m.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007FE9978BD5F3978352DE000000007FE9",
+                "Thumbprint": "8ECEA5364790783425DD8C192B82AD9C4C29DCA4",
+                "ValidFrom": "2021-03-12T06:26:40.0000000Z",
+                "ValidTo": "2022-04-06T06:26:40.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b350386dd-3fa2-46bf-9b0b-3172102c8dfa%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:50:53.2374360Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-gandalf",
+            "Guid": "{a424808d-e82b-4a63-9d9a-9b976e2ad85f}",
+            "Name": "bby-s-gandalf",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-gandalf",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-gandalf"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000065AA23B34770733C18840000000065AA",
+                "Thumbprint": "2BA0972289747B8966D829A018FE96C2AE6B24AD",
+                "ValidFrom": "2020-05-11T05:10:45.0000000Z",
+                "ValidTo": "2021-06-05T05:10:45.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7ba424808d-e82b-4a63-9d9a-9b976e2ad85f%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:50:56.2686473Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-ucomgwyuser",
+            "Guid": "{00d5850a-0bfe-449b-9d35-af6e402434fc}",
+            "Name": "bby-s-ucomgwyuser",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-ucomgwyuser",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-ucomgwyuser",
+                        "EMAILADDRESS=DotcomInfraOps@bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006671DD53CF0F8E8046F6000000006671",
+                "Thumbprint": "E84B9D024CFDCD20D6192F8E67D7E2C6A0B662D5",
+                "ValidFrom": "2020-05-14T10:29:22.0000000Z",
+                "ValidTo": "2021-06-08T10:29:22.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b00d5850a-0bfe-449b-9d35-af6e402434fc%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:02.3651854Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-SNS_keystore",
+            "Guid": "{19209685-1903-42f8-b793-2a46d626f5a1}",
+            "Name": "BBY-S-SNS_keystore",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "BBY-S-SNS",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-SNS",
+                        "EMAILADDRESS=DotcomISSupportOLS@bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000066B75B09C7B3E736BC620000000066B7",
+                "Thumbprint": "9A6BE4B9F027403DBEC37C4A4A04A1EAD0206241",
+                "ValidFrom": "2020-05-18T14:25:38.0000000Z",
+                "ValidTo": "2021-06-12T14:25:38.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b19209685-1903-42f8-b793-2a46d626f5a1%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:05.4276435Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-USWEBAGG",
+            "Guid": "{e3aecce8-5fc4-49a9-ad12-f2e9b040fd05}",
+            "Name": "BBY-S-USWEBAGG",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "BBY-S-USWEBAGG",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-USWEBAGG",
+                        "EMAILADDRESS=DotcomISSupportOLS@bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000066A123811A3B75D1DA1B0000000066A1",
+                "Thumbprint": "64557F864FC78590BFA32273080DF3A6A53AFBEA",
+                "ValidFrom": "2020-05-18T11:44:36.0000000Z",
+                "ValidTo": "2021-06-12T11:44:36.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7be3aecce8-5fc4-49a9-ad12-f2e9b040fd05%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:18.3096038Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-coral",
+            "Guid": "{3f899e08-6365-4e8e-bf1d-7eb373dd1b4d}",
+            "Name": "bby-s-coral",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-coral",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-coral"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000866DE208DDB7305FBBBA00000000866D",
+                "Thumbprint": "23CAD6AFA45E0C0E156F6404F2F1BF46633C2F7B",
+                "ValidFrom": "2021-04-21T08:31:56.0000000Z",
+                "ValidTo": "2022-05-16T08:31:56.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b3f899e08-6365-4e8e-bf1d-7eb373dd1b4d%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:21.3408440Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-basket",
+            "Guid": "{fab7ffb5-398a-4d7c-ab7a-924ff107085e}",
+            "Name": "bby-s-basket",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-basket",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-basket"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000873FB7D28D8342C3ADAF00000000873F",
+                "Thumbprint": "C1E2EA2793639A6EDE56F9B4EFD695F6C81A0757",
+                "ValidFrom": "2021-04-22T10:41:17.0000000Z",
+                "ValidTo": "2022-05-17T10:41:17.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfab7ffb5-398a-4d7c-ab7a-924ff107085e%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:24.5151230Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-cia",
+            "Guid": "{6ca41b40-51c1-4d64-9e24-87116db68b99}",
+            "Name": "bby-s-cia",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-cia",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-cia"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000669F970F7F079636BE2F00000000669F",
+                "Thumbprint": "990626E5A4981248F2A4EBD1DEEC898FF066EF95",
+                "ValidFrom": "2020-05-18T11:16:43.0000000Z",
+                "ValidTo": "2021-06-12T11:16:43.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6ca41b40-51c1-4d64-9e24-87116db68b99%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:27.5619798Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-stsadmin",
+            "Guid": "{21b7a38d-7e7b-4b06-a6fd-92bdf9bc8a5e}",
+            "Name": "bby-s-stsadmin",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-stsadmin",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006E2733AB8CDB1D282BD5000000006E27",
+                "Thumbprint": "5C980F0BA06B1FEBDCF09AC5E6BD2A8CEF89D787",
+                "ValidFrom": "2020-06-17T09:14:36.0000000Z",
+                "ValidTo": "2021-07-12T09:14:36.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b21b7a38d-7e7b-4b06-a6fd-92bdf9bc8a5e%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:51:40.0700822Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\PolarMQ",
+            "Guid": "{6bd4376a-608c-4b0c-a5d8-8f784eb54583}",
+            "Name": "PolarMQ",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "PolarMQ",
+                "SANS": {
+                    "DNS": [
+                        "EMAILADDRESS=DotcomInfraOps@bestbuy.com",
+                        "PolarMQ"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000068296E6404E7FAA6AE4E000000006829",
+                "Thumbprint": "2D352FFFA96D51C2631E0B0D39316F764C668820",
+                "ValidFrom": "2020-05-25T08:37:16.0000000Z",
+                "ValidTo": "2021-06-19T08:37:16.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6bd4376a-608c-4b0c-a5d8-8f784eb54583%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:52:01.9211858Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client-Dotcom\\bby-s-solrindex-svc",
+            "Guid": "{c532a9bb-2bc1-4dc7-aab0-ccd782a15074}",
+            "Name": "bby-s-solrindex-svc",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client-Dotcom",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-solrindex-svc",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-solrindex-svc"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000768D51B10FB639C47E0E00000000768D",
+                "Thumbprint": "CC558C02F94E147F819B4A753840BC30364FC246",
+                "ValidFrom": "2020-09-01T16:43:28.0000000Z",
+                "ValidTo": "2021-09-26T16:43:28.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bc532a9bb-2bc1-4dc7-aab0-ccd782a15074%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:52:19.5870475Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-toolshed",
+            "Guid": "{a2424de1-88e5-4b77-b2a5-7640f07e9477}",
+            "Name": "bby-s-toolshed",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-toolshed",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-toolshed",
+                        "EMAILADDRESS=DotcomInfraOps@bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000066A08AB21FCFABCCDC410000000066A0",
+                "Thumbprint": "93FC82AB54E41423A04D64C8573BB0498A8AC997",
+                "ValidFrom": "2020-05-18T11:28:32.0000000Z",
+                "ValidTo": "2021-06-12T11:28:32.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7ba2424de1-88e5-4b77-b2a5-7640f07e9477%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:52:22.6181151Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-koi",
+            "Guid": "{00a9490b-9ae0-43a7-98ad-7a43d8faa37e}",
+            "Name": "bby-s-koi",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-koi",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-koi"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007424B236DCFCEEA41FD8000000007424",
+                "Thumbprint": "77B42504D9745839A3F548D7AC21B698AF3C2CA8",
+                "ValidFrom": "2020-07-20T09:41:41.0000000Z",
+                "ValidTo": "2021-08-14T09:41:41.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b00a9490b-9ae0-43a7-98ad-7a43d8faa37e%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:52:29.0243188Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client-Dotcom\\bby-s-prorelagg",
+            "Guid": "{7aa5bd8a-b280-4fd7-a19d-217d479b2c58}",
+            "Name": "bby-s-prorelagg",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client-Dotcom",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-prorelagg",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-prorelagg"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000075BE3CE305E1A12CCED90000000075BE",
+                "Thumbprint": "10AE1C3A57AC4E6091C4F4CEEE665E6AB8C6F91C",
+                "ValidFrom": "2020-08-19T22:08:03.0000000Z",
+                "ValidTo": "2021-09-13T22:08:03.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b7aa5bd8a-b280-4fd7-a19d-217d479b2c58%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:52:32.4149420Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\ServiceCalendar",
+            "Guid": "{ae8fcfe6-8841-4c30-a435-31f795c119e5}",
+            "Name": "ServiceCalendar",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "ServiceCalendar",
+                "SANS": {
+                    "DNS": [
+                        "ServiceCalendar"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006AD0306BFCEC28D1758A000000006AD0",
+                "Thumbprint": "6BFA1B5392E044C72E1356DEC1B32AF73AB61646",
+                "ValidFrom": "2020-06-01T15:25:00.0000000Z",
+                "ValidTo": "2021-06-26T15:25:00.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bae8fcfe6-8841-4c30-a435-31f795c119e5%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:53:03.7273072Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-clipper-mexico",
+            "Guid": "{fa62dc92-a9f8-42e1-8fc3-3ae9a43856cb}",
+            "Name": "bby-s-clipper-mexico",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-clipper-mexico",
+                "SANS": {
+                    "DNS": [
+                        "pdl11rsvmx102",
+                        "pdl11rsvmx102.na.bestbuy.com",
+                        "pdl11rsvmx103",
+                        "pdl11rsvmx104",
+                        "pdl11rsvmx104.na.bestbuy.com",
+                        "reserve-mx.bestbuy.com",
+                        "reserve-mx.dr.bestbuy.com",
+                        "pdl11rsvmx103.na.bestbuy.com",
+                        "bby-s-clipper-mexico",
+                        "drl12rsvmx101",
+                        "drl12rsvmx101.na.bestbuy.com",
+                        "drl12rsvmx102",
+                        "drl12rsvmx102.na.bestbuy.com",
+                        "pdl11rsvmx101",
+                        "pdl11rsvmx101.na.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006D6F5C68B47534AAA8D2000000006D6F",
+                "Thumbprint": "75197C79F4568CFFC0FD46E41E1958DDDB95B087",
+                "ValidFrom": "2020-06-15T12:33:49.0000000Z",
+                "ValidTo": "2021-07-10T12:33:49.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfa62dc92-a9f8-42e1-8fc3-3ae9a43856cb%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T06:53:46.9291675Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\ordp-rabbitmq.prod.bestbuy.com",
+            "Guid": "{c70b5af2-84a1-439a-9913-961b1239de3c}",
+            "Name": "ordp-rabbitmq.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "ordp-rabbitmq.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "drl12ordprbtmq101",
+                        "drl12ordprbtmq102",
+                        "drl12ordprbtmq103",
+                        "ordp-rabbitmq.dr.bestbuy.com",
+                        "ordp-rabbitmq.prod.bestbuy.com",
+                        "pdl11ordprbtmq101",
+                        "pdl11ordprbtmq101.bby",
+                        "pdl11ordprbtmq102",
+                        "pdl11ordprbtmq102.bby",
+                        "pdl11ordprbtmq103",
+                        "pdl11ordprbtmq103.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000061DC10F2CDB0B30814790000000061DC",
+                "Thumbprint": "981DB957457BDD554F3C1D70113EDB112F03EAE8",
+                "ValidFrom": "2020-03-18T11:27:57.0000000Z",
+                "ValidTo": "2021-04-12T11:27:57.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bc70b5af2-84a1-439a-9913-961b1239de3c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:38.4238047Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11ordpmq01",
+            "Guid": "{38120280-9ac1-4447-bf49-bec75253bc23}",
+            "Name": "pd11ordpmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11ordpmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11ordpmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000757C8F9A90595676A5C500000000757C",
+                "Thumbprint": "53BC708B6F90F729067EFE14579955098FEA376E",
+                "ValidFrom": "2020-08-12T13:09:25.0000000Z",
+                "ValidTo": "2021-09-06T13:09:25.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b38120280-9ac1-4447-bf49-bec75253bc23%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:41.1737454Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11ordnmq01",
+            "Guid": "{f08665cd-b37d-4d01-becc-92e79d15df9e}",
+            "Name": "pd11ordnmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11ordnmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11ordnmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000757B91205B81B33883FE00000000757B",
+                "Thumbprint": "D3ECEBC931A80BA915941670A4966B17BC2A10EF",
+                "ValidFrom": "2020-08-12T13:09:14.0000000Z",
+                "ValidTo": "2021-09-06T13:09:14.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bf08665cd-b37d-4d01-becc-92e79d15df9e%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:43.9398953Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11custmq01",
+            "Guid": "{fc516fb3-2546-4c17-bfdd-3f97a9b2a3bc}",
+            "Name": "pd11custmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11custmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11custmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000075785FE0F1EFCF7EB40D000000007578",
+                "Thumbprint": "C1887E003AE03438D33B62085AF9708D5B709BC3",
+                "ValidFrom": "2020-08-12T13:08:52.0000000Z",
+                "ValidTo": "2021-09-06T13:08:52.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfc516fb3-2546-4c17-bfdd-3f97a9b2a3bc%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:46.7547236Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11prcmq01",
+            "Guid": "{50698fe4-9c87-45d2-b70c-6467f287acc2}",
+            "Name": "pd11prcmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11prcmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11prcmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000757DF646C44A28EF813E00000000757D",
+                "Thumbprint": "EF3B563206969710D58F54AE6D47D264D95AF4F9",
+                "ValidFrom": "2020-08-12T13:09:37.0000000Z",
+                "ValidTo": "2021-09-06T13:09:37.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b50698fe4-9c87-45d2-b70c-6467f287acc2%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:49.5515932Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11afmq01",
+            "Guid": "{79231357-4d64-46c2-a042-ec255a06490f}",
+            "Name": "pd11afmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11afmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11afmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007576B84DEAA86CA6A013000000007576",
+                "Thumbprint": "B21A93011BEEDD4D7AA29646BE6A4F9CFBBF5C3A",
+                "ValidFrom": "2020-08-12T13:08:17.0000000Z",
+                "ValidTo": "2021-09-06T13:08:17.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b79231357-4d64-46c2-a042-ec255a06490f%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:02:52.3953303Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pd11mxmq01",
+            "Guid": "{6f0fb7e8-b1a9-4aa1-a772-a92ce5f1c979}",
+            "Name": "pd11mxmq01",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pd11mxmq01",
+                "SANS": {
+                    "DNS": [
+                        "pd11mxmq01"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000757ACF58957AC153264F00000000757A",
+                "Thumbprint": "EA060BBBA059D137877D489D9E16E762B9FD4BB6",
+                "ValidFrom": "2020-08-12T13:09:03.0000000Z",
+                "ValidTo": "2021-09-06T13:09:03.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6f0fb7e8-b1a9-4aa1-a772-a92ce5f1c979%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:04:10.4248517Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\opscenter-agents-prod",
+            "Guid": "{29bdf0a4-10ea-4dd7-bb9b-3f2440c32212}",
+            "Name": "opscenter-agents-prod",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "opscenter-agents-prod",
+                "SANS": {
+                    "DNS": [
+                        "opscenter-agents-prod"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000641DDDC5817645DB12FC00000000641D",
+                "Thumbprint": "7AE2BA182DD3BECBFBF924A421B2062EB3A3370B",
+                "ValidFrom": "2020-04-25T13:03:15.0000000Z",
+                "ValidTo": "2021-05-20T13:03:15.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b29bdf0a4-10ea-4dd7-bb9b-3f2440c32212%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:05:12.5013484Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test\\ordersubmit-stage.bestbuy.com",
+            "Guid": "{2faa5c34-f231-4b74-8254-693a97707ca6}",
+            "Name": "ordersubmit-stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "ordersubmit-stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "ordersubmit.stage.bestbuy.com",
+                        "ordersubmit.test.bestbuy.com",
+                        "ordersubmit-stage.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002FA2DA9407C79902395A000000002FA2",
+                "Thumbprint": "F833A12608B85F73048F4DF88ABC3FBE6F114068",
+                "ValidFrom": "2019-10-04T17:45:59.0000000Z",
+                "ValidTo": "2021-10-03T17:45:59.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b2faa5c34-f231-4b74-8254-693a97707ca6%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:35:17.5952179Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client\\bby-s-ucr",
+            "Guid": "{da28272d-6cfb-42d6-b8bd-75a3173f4999}",
+            "Name": "bby-s-ucr",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-ucr",
+                "SANS": {
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006A5C236F53ADBF0C54B9000000006A5C",
+                "Thumbprint": "493C15D93FC479439EC94A03022145A349680B28",
+                "ValidFrom": "2020-05-28T11:33:26.0000000Z",
+                "ValidTo": "2021-06-22T11:33:26.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bda28272d-6cfb-42d6-b8bd-75a3173f4999%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:35:18.5678784Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client\\bby-s-ugc",
+            "Guid": "{bf2da82d-2821-463d-96ad-60a3f915bb0a}",
+            "Name": "bby-s-ugc",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-ugc",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-ugc"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006B8717C2F65C6D0F0111000000006B87",
+                "Thumbprint": "E206EF35E6874B4DB501CCA050F613C2353FE191",
+                "ValidFrom": "2020-06-03T11:49:10.0000000Z",
+                "ValidTo": "2021-06-28T11:49:10.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bbf2da82d-2821-463d-96ad-60a3f915bb0a%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:35:36.4145459Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-remix",
+            "Guid": "{6df72483-eb84-46f6-a42c-76f4b6e8c431}",
+            "Name": "bby-s-remix",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-remix",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-remix",
+                        "rbtmq.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006CDFDF78AAF09177B5F5000000006CDF",
+                "Thumbprint": "A98F0517979C74EEF12F64A6EF7B827E9D4F99CD",
+                "ValidFrom": "2020-06-10T15:17:42.0000000Z",
+                "ValidTo": "2021-07-05T15:17:42.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6df72483-eb84-46f6-a42c-76f4b6e8c431%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:35:38.4032780Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client\\bby-s-leviathan",
+            "Guid": "{fb3d60ca-bfe6-45fe-abe8-a537acded4b1}",
+            "Name": "bby-s-leviathan",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-leviathan",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-leviathan"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000075F8982DAF1620B1C0FF0000000075F8",
+                "Thumbprint": "E8CC1BFF8E4FC330BFB03C300ACFF179F0EF3645",
+                "ValidFrom": "2020-08-24T20:28:33.0000000Z",
+                "ValidTo": "2021-09-18T20:28:33.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfb3d60ca-bfe6-45fe-abe8-a537acded4b1%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:03.1312362Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-clicky",
+            "Guid": "{04c488f5-e043-474d-ad70-cb382c6f5984}",
+            "Name": "bby-s-clicky",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-clicky",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-clicky"
+                    ],
+                    "Email": [
+                        "mixologyops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006333FEC78C18F4B66847000000006333",
+                "Thumbprint": "E2DEE79FE73E0EC26797D6D6D85597F1779D0B23",
+                "ValidFrom": "2020-04-07T09:47:49.0000000Z",
+                "ValidTo": "2021-05-02T09:47:49.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b04c488f5-e043-474d-ad70-cb382c6f5984%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:07.0067500Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-bt",
+            "Guid": "{d139b4f4-5736-41f6-b6c5-83554724bc71}",
+            "Name": "bby-s-bt",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-bt",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-bt",
+                        "bby-s-searchbt"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000666E543543D4D57B260700000000666E",
+                "Thumbprint": "4B76B41A03E3A692A5DB4DB64E4E32C59951111B",
+                "ValidFrom": "2020-05-14T09:31:01.0000000Z",
+                "ValidTo": "2021-06-08T09:31:01.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bd139b4f4-5736-41f6-b6c5-83554724bc71%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:09.2637259Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-leviathan",
+            "Guid": "{96dfb2ce-d93c-41fd-a1df-139c88f4b472}",
+            "Name": "bby-s-leviathan",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-leviathan",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-leviathan",
+                        "pdl11deploy101",
+                        "pdl11jmphst101"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000755B3E1DBB50F0EB895C00000000755B",
+                "Thumbprint": "76FB4C572745CFA428875395F99483DF351E78A9",
+                "ValidFrom": "2020-08-10T16:24:53.0000000Z",
+                "ValidTo": "2021-09-04T16:24:53.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b96dfb2ce-d93c-41fd-a1df-139c88f4b472%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:16.2030477Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\tealeaf.bestbuy.com",
+            "Guid": "{42063267-68c1-4a09-8235-69b52415a623}",
+            "Name": "tealeaf.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "tealeaf.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "tealeaf.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000070325D28D370B2A92D44000000007032",
+                "Thumbprint": "E28FEDA433CDD0C94BDF149CAF77B846F846B735",
+                "ValidFrom": "2020-07-01T02:51:07.0000000Z",
+                "ValidTo": "2021-07-26T02:51:07.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b42063267-68c1-4a09-8235-69b52415a623%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:21.9669024Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\workflow.prod.bestbuy.com",
+            "Guid": "{4f7771e9-8ace-4cff-bd39-4b00f5af15e4}",
+            "Name": "workflow.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "workflow.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "sherpa.bestbuy.com",
+                        "workflow.bestbuy.com",
+                        "workflow.dr.bestbuy.com",
+                        "workflow.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000082D588912224A53ECA5F0000000082D5",
+                "Thumbprint": "6C113DBEB4658FCA7C85335772AC3E28CEBF56EA",
+                "ValidFrom": "2021-04-08T12:53:44.0000000Z",
+                "ValidTo": "2022-05-03T12:53:44.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b4f7771e9-8ace-4cff-bd39-4b00f5af15e4%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:26.7631935Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\sitecontrol.prod.bestbuy.com",
+            "Guid": "{86cd4a85-e94d-4c7b-9975-327e4c0138fe}",
+            "Name": "sitecontrol.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "sitecontrol.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "sitecontrol.bestbuy.com",
+                        "sitecontrol.dr.bestbuy.com",
+                        "sitecontrol.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000893D5F333A054F4AF17C00000000893D",
+                "Thumbprint": "C7619CF07F29FFEEC72C5F78D5E730E40F277118",
+                "ValidFrom": "2021-04-27T04:23:01.0000000Z",
+                "ValidTo": "2022-05-22T04:23:01.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b86cd4a85-e94d-4c7b-9975-327e4c0138fe%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:40.0251427Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\rbtmq.bestbuy.com",
+            "Guid": "{68f1b240-99d3-4211-b348-eb7b0c0dda6f}",
+            "Name": "rbtmq.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "rbtmq.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "catalog-rabbitmq.dr.bestbuy.com",
+                        "catalog-rabbitmq.prod.bestbuy.com",
+                        "catalog-rabbitmq-a.prod.bestbuy.com",
+                        "rabbitmq-svc-dc.dr.browse.bestbuy.com",
+                        "rabbitmq-svc-dc.prod.browse.bestbuy.com",
+                        "rbtmq.bestbuy.com",
+                        "rbtmq-dr.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300008A936DB6163510F71010000000008A93",
+                "Thumbprint": "DD6AC4258D147ED90EDB361A7D52D5DE63CC8692",
+                "ValidFrom": "2021-04-29T05:24:30.0000000Z",
+                "ValidTo": "2022-05-24T05:24:30.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b68f1b240-99d3-4211-b348-eb7b0c0dda6f%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-24T07:46:52.1487680Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\kafka-admin-dc-prod",
+            "Guid": "{b3a57391-15d5-499f-b87f-b62c2b2d3b42}",
+            "Name": "kafka-admin-dc-prod",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "kafka-admin",
+                "SANS": {
+                    "DNS": [
+                        "pdl11kafka104.bby",
+                        "pdl11kafka105",
+                        "pdl11kafka105.bby",
+                        "pdl11kafka106",
+                        "pdl11kafka106.bby",
+                        "pdl11kafka107",
+                        "pdl11kafka102",
+                        "pdl11kafka102.bby",
+                        "pdl11kafka103",
+                        "pdl11kafka103.bby",
+                        "pdl11kafka104",
+                        "pdl11kafka107.bby",
+                        "drl12kafka101",
+                        "drl12kafka101.bby",
+                        "drl12kafka102",
+                        "drl12kafka102.bby",
+                        "drl12kafka103",
+                        "drl12kafka103.bby",
+                        "drl12kafka104",
+                        "drl12kafka104.bby",
+                        "drl12kafka105",
+                        "drl12kafka105.bby",
+                        "gennkfk.dr.bestbuy.com",
+                        "gennkfk.prod.bestbuy.com",
+                        "kafka-admin",
+                        "pdl11kafka101",
+                        "pdl11kafka101.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000073651610D1CD2166E9A7000000007365",
+                "Thumbprint": "93C148D46B5EC2F19C1F27115C48E685E92846A1",
+                "ValidFrom": "2020-07-15T22:29:34.0000000Z",
+                "ValidTo": "2021-08-09T22:29:34.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bb3a57391-15d5-499f-b87f-b62c2b2d3b42%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T22:45:55.0621485Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\BBY-S-OLSUSER-DEV",
+            "Guid": "{cf50eddb-6d18-4c9e-9371-bc48077f68a2}",
+            "Name": "BBY-S-OLSUSER-DEV",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-OLSUSER-DEV",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-OLSUSER-DEV"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003DD0BB3771037032F9D2000000003DD0",
+                "Thumbprint": "FDB24E3B3A4279C85839D24FA6A96063656F37BB",
+                "ValidFrom": "2020-09-22T13:24:51.0000000Z",
+                "ValidTo": "2021-09-17T13:24:51.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bcf50eddb-6d18-4c9e-9371-bc48077f68a2%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T22:54:11.1724886Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\site-content-domain-service.stage.bestbuy.com",
+            "Guid": "{baf6bf2f-fe18-442d-ad37-b5d9bfaf532c}",
+            "Name": "site-content-domain-service.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "site-content-domain-service.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "site-content-domain-service.stage.bestbuy.com",
+                        "site-content-domain-service.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002BA203AB45646484AB37000000002BA2",
+                "Thumbprint": "4A477CC0B3E2A50E0C11B798A65DF085B5B61CF7",
+                "ValidFrom": "2019-07-08T07:51:02.0000000Z",
+                "ValidTo": "2021-07-07T07:51:02.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bbaf6bf2f-fe18-442d-ad37-b5d9bfaf532c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:00:12.3142181Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-gandalfl7-dev",
+            "Guid": "{53a45896-7925-4902-a18d-65e1d87244dc}",
+            "Name": "bby-s-gandalfl7-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-GANDALFL7-DEV",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-gandalf7-dev",
+                        "BBY-S-GANDALFL7-DEV"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000047BA3A8D2D8B0A66E3DC0000000047BA",
+                "Thumbprint": "805AFBB3B3A8C9BBB09599606EF36470EC08FF52",
+                "ValidFrom": "2021-05-01T08:52:32.0000000Z",
+                "ValidTo": "2022-04-26T08:52:32.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b53a45896-7925-4902-a18d-65e1d87244dc%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:00:14.4075025Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\Entrust_ClientServer\\checkout.stage.dc.bestbuy.com",
+            "Guid": "{dc0216ea-b67d-4dc6-a1f3-6e5118bcbe91}",
+            "Name": "checkout.stage.dc.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\Entrust_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "checkout.stage.dc.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "agg.stage.bestbuy.com",
+                        "checkout.stage.dc.bestbuy.com",
+                        "checkout.test.dc.bestbuy.com",
+                        "checkout-ssl-pls.test.bestbuy.com"
+                    ]
+                },
+                "Serial": "53130955BE9D098FA73A15A85F3C2A7F",
+                "Thumbprint": "3E24D78540822851F224F8210E9D26FE20D2D3AD",
+                "ValidFrom": "2021-03-01T05:08:34.0000000Z",
+                "ValidTo": "2022-02-28T05:08:34.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bdc0216ea-b67d-4dc6-a1f3-6e5118bcbe91%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:00:29.5223027Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\gandalfmq",
+            "Guid": "{43d3a294-3b86-4c8c-b2ca-95acef0ac6e0}",
+            "Name": "gandalfmq",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "gandalfmq",
+                "SANS": {
+                    "DNS": [
+                        "gandalfmq"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002A4485125CCFDC07EDFD000000002A44",
+                "Thumbprint": "09FB11B2113AEF78F7AED08555D64F7DCC406CB5",
+                "ValidFrom": "2019-06-16T11:11:41.0000000Z",
+                "ValidTo": "2021-06-15T11:11:41.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b43d3a294-3b86-4c8c-b2ca-95acef0ac6e0%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:01:03.9894022Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test\\vgraph-stage.bestbuy.com",
+            "Guid": "{e99a39cd-e424-4ea1-85e2-7623a42a7478}",
+            "Name": "vgraph-stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "vgraph-stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "vgraph.stage.bestbuy.com",
+                        "vgraph.test.bestbuy.com",
+                        "vgraph-stage.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002A7A8F23D3E9ECE783BE000000002A7A",
+                "Thumbprint": "41E309AB7753EDDCDCAA2075346D950E4E41803C",
+                "ValidFrom": "2019-06-21T07:05:14.0000000Z",
+                "ValidTo": "2021-06-20T07:05:14.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7be99a39cd-e424-4ea1-85e2-7623a42a7478%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:01:08.3855396Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\BBY-S-IDENTITY-DEV",
+            "Guid": "{aa3e6e71-680c-4569-a4c5-4e26ae96e356}",
+            "Name": "BBY-S-IDENTITY-DEV",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-IDENTITY-DEV",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-identity-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002B8757DDEA9DCFEC5D7B000000002B87",
+                "Thumbprint": "E8C701FF9D5D05D783A4DFFD46F4954EBEDD8944",
+                "ValidFrom": "2019-07-02T12:52:37.0000000Z",
+                "ValidTo": "2021-07-01T12:52:37.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7baa3e6e71-680c-4569-a4c5-4e26ae96e356%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:01:11.6454201Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\stage.ease.bestbuy.com",
+            "Guid": "{da253336-f29c-4fc0-9e98-e2e968022d68}",
+            "Name": "stage.ease.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "stage.ease.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "ease-app.stage.bestbuy.com",
+                        "ease-app.test.bestbuy.com",
+                        "stage.ease.bestbuy.com",
+                        "test.ease.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002B44A71817922AD17DCB000000002B44",
+                "Thumbprint": "9BD884A5F729123FB76CA45737E5816D08DCA798",
+                "ValidFrom": "2019-06-26T13:07:04.0000000Z",
+                "ValidTo": "2021-06-25T13:07:04.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bda253336-f29c-4fc0-9e98-e2e968022d68%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:04:06.7678465Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\af-rbtmq.stage.bestbuy.com",
+            "Guid": "{11cee551-c47c-4dda-8dc7-26f30ef1b330}",
+            "Name": "af-rbtmq.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "af-rbtmq.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "af-rbtmq.test.bestbuy.com",
+                        "af-rbtmq.stage.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200002D27821FE56D984E4B5F000000002D27",
+                "Thumbprint": "B38205F0086E3229CD20F64176750C7FC17045DA",
+                "ValidFrom": "2019-08-08T14:39:26.0000000Z",
+                "ValidTo": "2021-08-07T14:39:26.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b11cee551-c47c-4dda-8dc7-26f30ef1b330%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:08:20.3920178Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test\\button.stage.bestbuy.com",
+            "Guid": "{80b919a8-0fc8-4578-a7b5-03f93719eecb}",
+            "Name": "button.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "button.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "button.stage.bestbuy.com",
+                        "button.test.bestbuy.com",
+                        "ptl12btnapp101",
+                        "ptl11btnapp102",
+                        "ptl11btnapp102-m.bby",
+                        "ptl11btnapp101",
+                        "ptl11btnapp101-m.bby",
+                        "ptl12btnapp101-m.bby",
+                        "ptl12btnapp102",
+                        "ptl12btnapp102-m.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000040AB9478B78E8DAFFF980000000040AB",
+                "Thumbprint": "4A2CB73C7892FAD7ABC4850E1CA448ACBF67C09E",
+                "ValidFrom": "2021-01-27T11:30:07.0000000Z",
+                "ValidTo": "2022-01-22T11:30:07.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b80b919a8-0fc8-4578-a7b5-03f93719eecb%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:08:57.0464774Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-rabbitmq-browse-dev - 2",
+            "Guid": "{c30132b9-e000-430c-9b9c-1e195960bad4}",
+            "Name": "bby-s-rabbitmq-browse-dev - 2",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-rabbitmq-browse-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-rabbitmq-browse-dev",
+                        "rabbitmq-svc-east.stage.browse.bestbuy.com",
+                        "rabbitmq-svc-east.test.browse.bestbuy.com",
+                        "rabbitmq-svc-east-ext.stage.browse.bestbuy.com",
+                        "rabbitmq-svc-east-ext.test.browse.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000032CBC642B57D655613750000000032CB",
+                "Thumbprint": "D4D715ABD615DF4A0B02D0FFEE6DE73DE01C1CEC",
+                "ValidFrom": "2020-01-20T17:09:22.0000000Z",
+                "ValidTo": "2022-01-19T17:09:22.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bc30132b9-e000-430c-9b9c-1e195960bad4%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:12:13.9043186Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-sns-dev",
+            "Guid": "{6c17c213-c172-43e2-b24a-1c7488890623}",
+            "Name": "bby-s-sns-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-sns-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-sns-dev",
+                        "sns.stage.bestbuy.com",
+                        "sns-qa1.bestbuy.com",
+                        "sns-qa3.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000036F6A9F59AA3AA787DEF0000000036F6",
+                "Thumbprint": "CEDE41F2E0DFCEC46C9403715F4392CDDFF5585A",
+                "ValidFrom": "2020-05-08T06:49:15.0000000Z",
+                "ValidTo": "2022-05-08T06:49:15.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6c17c213-c172-43e2-b24a-1c7488890623%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:12:27.8487596Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\sns",
+            "Guid": "{10f260cf-d59a-4b6c-a5a5-3f136ebd9a46}",
+            "Name": "sns",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "sns",
+                "SANS": {
+                    "DNS": [
+                        "sns",
+                        "sns.stage.bestbuy.com",
+                        "sns.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "DotcomInfraOps@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000037499A072F4656C42C73000000003749",
+                "Thumbprint": "377ADDF86E3A3284F99BB9EC332792498A09F667",
+                "ValidFrom": "2020-05-19T12:22:25.0000000Z",
+                "ValidTo": "2022-05-19T12:22:25.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b10f260cf-d59a-4b6c-a5a5-3f136ebd9a46%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:12:49.3190711Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\configread.stage.bestbuy.com",
+            "Guid": "{6a152723-2206-48aa-81ea-6662c30d4b12}",
+            "Name": "configread.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "configread.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "configread.stage.bestbuy.com",
+                        "configread.test.bestbuy.com",
+                        "ptl11cfgread101",
+                        "ptl11cfgread101-m.bby",
+                        "ptl11cfgread102",
+                        "ptl11cfgread102-m.bby",
+                        "ptl12cfgread101",
+                        "ptl12cfgread101-m.bby",
+                        "ptl12cfgread102",
+                        "ptl12cfgread102-m.bby"
+                    ],
+                    "Email": [
+                        "DotcomInfraOps@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003AA40DE8FECCD65B64EE000000003AA4",
+                "Thumbprint": "AF82AD59E2272F850BEE67FC1262637AD3AC2EA2",
+                "ValidFrom": "2020-07-22T09:51:57.0000000Z",
+                "ValidTo": "2022-07-22T09:51:57.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b6a152723-2206-48aa-81ea-6662c30d4b12%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:14:26.8408547Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\toolshed-stage.bestbuy.com",
+            "Guid": "{fcb9a41e-ca9b-4634-af7f-088d0f2561e3}",
+            "Name": "toolshed-stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "toolshed-stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "toolshed-stage.bestbuy.com",
+                        "toolshed.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "520000474F0AD5804CA4A19CCF00000000474F",
+                "Thumbprint": "FB5095BB8128171D3BD71AD38306274EBCF7FDE6",
+                "ValidFrom": "2021-04-26T03:04:39.0000000Z",
+                "ValidTo": "2022-04-21T03:04:39.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bfcb9a41e-ca9b-4634-af7f-088d0f2561e3%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:14:28.9658236Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\payments-stage.bestbuy.com",
+            "Guid": "{118b323c-ae3c-4a9a-bd86-4b77fbb7a8ec}",
+            "Name": "payments-stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "payments.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "payments.stage.bestbuy.com",
+                        "payments.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "520000294B51AD4AA5756C529100000000294B",
+                "Thumbprint": "BC849253C59C9D4B628E748D20C699B6F8C3A021",
+                "ValidFrom": "2019-05-28T13:40:43.0000000Z",
+                "ValidTo": "2021-05-27T13:40:43.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b118b323c-ae3c-4a9a-bd86-4b77fbb7a8ec%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:16:11.7951078Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\loyalty-app.stage.bestbuy.com-old",
+            "Guid": "{425ba8b5-d3b3-4659-944b-29d04ea43194}",
+            "Name": "loyalty-app.stage.bestbuy.com-old",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "loyalty-app.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "loyalty-app.stage.bestbuy.com",
+                        "loyalty-app.test.bestbuy.com",
+                        "ptl11lylapp101",
+                        "ptl11lylapp101.bby",
+                        "ptl11lylapp101-m.bby",
+                        "ptl11lylapp102",
+                        "ptl11lylapp102.bby",
+                        "ptl11lylapp102-m.bby",
+                        "ptl12lylapp101",
+                        "ptl12lylapp101.bby",
+                        "ptl12lylapp101-m.bby",
+                        "ptl12lylapp102",
+                        "ptl12lylapp102.bby",
+                        "ptl12lylapp102-m.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003798C67670B04F1CB713000000003798",
+                "Thumbprint": "28F7524605FFD710299061B9EB373421985A6DE9",
+                "ValidFrom": "2020-05-22T08:42:30.0000000Z",
+                "ValidTo": "2022-05-22T08:42:30.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b425ba8b5-d3b3-4659-944b-29d04ea43194%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-26T23:16:17.7046376Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\producttool.stage.bestbuy.com",
+            "Guid": "{eea73f3f-5008-4b14-a23d-23933a2dbbf4}",
+            "Name": "producttool.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "producttool.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "gandalf.stage.bestbuy.com",
+                        "gandalf.test.bestbuy.com",
+                        "gandalf-stage.bestbuy.com",
+                        "producttool.stage.bestbuy.com",
+                        "producttool.test.bestbuy.com",
+                        "producttool-stage.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003249EFD58B45C9D5076F000000003249",
+                "Thumbprint": "8AA9DB035866A2D304F3021B425C1788B13089E3",
+                "ValidFrom": "2020-01-07T15:05:07.0000000Z",
+                "ValidTo": "2022-01-06T15:05:07.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7beea73f3f-5008-4b14-a23d-23933a2dbbf4%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2017-09-27T21:59:22.8171636Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\cassandra_orddb_non_prod",
+            "Guid": "{747dd032-c054-4ffc-ba8b-019e3cdf2597}",
+            "Name": "cassandra_orddb_non_prod",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "cassandra_orddb_non_prod",
+                "SANS": {
+                    "DNS": [
+                        "cassandra_orddb_non_prod"
+                    ],
+                    "Email": [
+                        "dotcomnosqlops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000027ACE43B8DFA8634AF530000000027AC",
+                "Thumbprint": "0939A35CB4236538A5AD02ABAC9F6B8B467F7360",
+                "ValidFrom": "2019-04-25T17:42:51.0000000Z",
+                "ValidTo": "2021-04-24T17:42:51.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b747dd032-c054-4ffc-ba8b-019e3cdf2597%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-01T11:44:32.8952963Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-afbatchatg",
+            "Guid": "{70c55c0c-acf1-4d85-bf8a-69e04c5096b5}",
+            "Name": "bby-s-afbatchatg",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-afbatchatg",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-afbatchatg"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000079934630D0F31AD8A497000000007993",
+                "Thumbprint": "898A619D09E72FF463A7A0C97AED60CDF3A3C39C",
+                "ValidFrom": "2021-01-18T06:30:34.0000000Z",
+                "ValidTo": "2022-02-12T06:30:34.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b70c55c0c-acf1-4d85-bf8a-69e04c5096b5%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-05T21:13:47.1664930Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-COP-KMS",
+            "Guid": "{1d555055-8732-4c71-b636-b877710a9f38}",
+            "Name": "BBY-S-COP-KMS",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-COP-KMS",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-COP-KMS"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000074A7491E8C7D17471ECF0000000074A7",
+                "Thumbprint": "8D41C071A9EE83BF8E6744B1DA83EB68FE905B65",
+                "ValidFrom": "2020-07-22T11:23:52.0000000Z",
+                "ValidTo": "2021-08-16T11:23:52.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b1d555055-8732-4c71-b636-b877710a9f38%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-12T02:55:51.0248970Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-svcplans",
+            "Guid": "{ce8a889f-2b88-4436-bc35-7bb3a4e91227}",
+            "Name": "bby-s-svcplans",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-svcplans",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-SVCPLANS"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000074282B0663A3DCC04D11000000007428",
+                "Thumbprint": "C40B103A214FA7A9BF472BA3192B8FA0F4F07B46",
+                "ValidFrom": "2020-07-20T12:10:36.0000000Z",
+                "ValidTo": "2021-08-14T12:10:36.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bce8a889f-2b88-4436-bc35-7bb3a4e91227%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-12T15:42:26.6308653Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-TAXSERVICE",
+            "Guid": "{a5f9a481-e354-4b68-803e-280cc0c3f7a9}",
+            "Name": "BBY-S-TAXSERVICE",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-TAXSERVICE",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-TAXSERVICE"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000074252974E8342AE2B034000000007425",
+                "Thumbprint": "3DB118FA169475F383842D7CE29A504002F70E66",
+                "ValidFrom": "2020-07-20T10:20:45.0000000Z",
+                "ValidTo": "2021-08-14T10:20:45.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7ba5f9a481-e354-4b68-803e-280cc0c3f7a9%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-16T02:27:50.4975593Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\serviceplans-app-a.prod.bestbuy.com",
+            "Guid": "{8bdfb2c9-9235-467f-9332-c67b45f2daf8}",
+            "Name": "serviceplans-app-a.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "serviceplans-app-a.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "serviceplans-app.dr.bestbuy.com",
+                        "serviceplans-app-a.prod.bestbuy.com",
+                        "serviceplans-app-b.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000798F981F8BD84E590E8400000000798F",
+                "Thumbprint": "8D3965DA23827B9FC164699755AE8547859CBE7B",
+                "ValidFrom": "2021-01-17T12:42:19.0000000Z",
+                "ValidTo": "2022-02-11T12:42:19.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b8bdfb2c9-9235-467f-9332-c67b45f2daf8%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-29T15:46:57.1284334Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-self-service",
+            "Guid": "{80faabc1-892d-4d6a-8b13-f08bae425a78}",
+            "Name": "bby-s-self-service",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-self-service",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-self-service"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007FFDB0434CB1F4B1CFE0000000007FFD",
+                "Thumbprint": "70A2DC2AC5AE6379EDFC59400AACFE21CD81F7B1",
+                "ValidFrom": "2021-03-14T05:17:49.0000000Z",
+                "ValidTo": "2022-04-08T05:17:49.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b80faabc1-892d-4d6a-8b13-f08bae425a78%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-01-30T16:55:25.2592747Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-OLSUSER",
+            "Guid": "{a466172d-796d-49a9-8ecf-ec1f14a68b3c}",
+            "Name": "BBY-S-OLSUSER",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "BBY-S-OLSUSER",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-OLSUSER"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000742385130F9EFF44BE6D000000007423",
+                "Thumbprint": "0D99C0B452BA80763CE36183CC27C9F4FFC1DAE9",
+                "ValidFrom": "2020-07-20T07:25:52.0000000Z",
+                "ValidTo": "2021-08-14T07:25:52.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7ba466172d-796d-49a9-8ecf-ec1f14a68b3c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-01T11:03:38.7454292Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\omsbuildteam@bestbuy.com\\NA_PD01i024_ClientServer\\BBY-S-OMSUSER",
+            "Guid": "{32161d0f-b222-47a9-ad2c-ae467776c3a7}",
+            "Name": "BBY-S-OMSUSER",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\omsbuildteam@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-OMSUSER",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-OMSUSER"
+                    ],
+                    "Email": [
+                        "omsbuildteam@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007F1B1A208AB0294692B4000000007F1B",
+                "Thumbprint": "D2307F5897BD5682EACB1765A2127E90E7F79B03",
+                "ValidFrom": "2021-03-07T13:23:41.0000000Z",
+                "ValidTo": "2022-04-01T13:23:41.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b32161d0f-b222-47a9-ad2c-ae467776c3a7%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-14T23:23:46.5806238Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\omsbuildteam@bestbuy.com\\NA_PD01i024_Server\\configtool.eoms.na.bestbuy.com",
+            "Guid": "{e7e933ff-a382-42b5-9a61-e3fbc7154c6a}",
+            "Name": "configtool.eoms.na.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\omsbuildteam@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "configtool.eoms.na.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "automationhub.bestbuy.com",
+                        "automationhub-pilot.bestbuy.com",
+                        "configtool.eoms.na.bestbuy.com",
+                        "configtooleoprd01.eoms.na.bestbuy.com",
+                        "configtool-pilot.eoms.na.bestbuy.com"
+                    ],
+                    "Email": [
+                        "asmeoms@bestbuy.com"
+                    ]
+                },
+                "Serial": "13000067CE8E8434667BE98A5E0000000067CE",
+                "Thumbprint": "700EA31810254DF1FB17E180D2DB2D88309CE3DC",
+                "ValidFrom": "2020-05-21T19:03:02.0000000Z",
+                "ValidTo": "2021-06-15T19:03:02.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7be7e933ff-a382-42b5-9a61-e3fbc7154c6a%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-19T21:17:00.4888115Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PD01i024_Server\\cassandra_casegraph_prod",
+            "Guid": "{a1ceab9e-5407-4931-8c86-d7f422672dfe}",
+            "Name": "cassandra_casegraph_prod",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "cassandra_casegraph_prod",
+                "SANS": {
+                    "DNS": [
+                        "cassandra_casegraph_prod"
+                    ],
+                    "Email": [
+                        "dotcomnosqlops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300005CB5048CFEF0EFBFB556000000005CB5",
+                "Thumbprint": "C9CE770E6488E4BAFBF28709732A193294BA1D46",
+                "ValidFrom": "2020-02-20T17:07:16.0000000Z",
+                "ValidTo": "2021-03-16T17:07:16.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7ba1ceab9e-5407-4931-8c86-d7f422672dfe%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-19T21:22:37.8371470Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\observium.monitoring.bestbuy.com",
+            "Guid": "{4836088b-a2b0-42f9-94a3-39ca7a8e14cb}",
+            "Name": "observium.monitoring.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "observium.monitoring.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "observium.monitoring.bestbuy.com",
+                        "pdl11obsrvm101-m.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300008001679A0812E40C0ADA000000008001",
+                "Thumbprint": "098D81B515C8AFAF09040E8B29CEB191837CED8C",
+                "ValidFrom": "2021-03-15T05:09:00.0000000Z",
+                "ValidTo": "2022-04-09T05:09:00.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b4836088b-a2b0-42f9-94a3-39ca7a8e14cb%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-20T17:54:07.6371398Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\search-businesstool.bestbuy.com",
+            "Guid": "{76786ff0-13c1-42b2-8967-bffc1d40e94c}",
+            "Name": "search-businesstool.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "search-businesstool.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "search-businesstool.bestbuy.com",
+                        "search-businesstool.dr.bestbuy.com",
+                        "search-businesstool.prod.bestbuy.com",
+                        "search-businesstool-a.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300008104382A04AC04BEC02F000000008104",
+                "Thumbprint": "64E63895FD2AD23789C79072FE09C8A3A79464F7",
+                "ValidFrom": "2021-03-26T08:34:04.0000000Z",
+                "ValidTo": "2022-04-20T08:34:04.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b76786ff0-13c1-42b2-8967-bffc1d40e94c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-23T17:57:05.7261390Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-payment",
+            "Guid": "{8b68376b-15a7-48e2-8750-f68268e81903}",
+            "Name": "bby-s-payment",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 User Certificate",
+            "X509": {
+                "CN": "bby-s-payment",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-payment"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007DC1838646048F98C330000000007DC1",
+                "Thumbprint": "090FA6CD6AB0973F0D56E3CAC118B584CB2A5F81",
+                "ValidFrom": "2021-02-16T10:58:35.0000000Z",
+                "ValidTo": "2022-03-13T10:58:35.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b8b68376b-15a7-48e2-8750-f68268e81903%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-02-23T18:01:18.2168332Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-trs",
+            "Guid": "{7812ead8-3286-4dce-9366-13ef87402887}",
+            "Name": "bby-s-trs",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 User Certificate",
+            "X509": {
+                "CN": "bby-s-trs",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-trs"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007B1B30F9A957F9C2F4D9000000007B1B",
+                "Thumbprint": "6386D7082F60866C1CB783DB2A4ACD6E2B23345E",
+                "ValidFrom": "2021-02-07T14:44:34.0000000Z",
+                "ValidTo": "2022-03-04T14:44:34.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b7812ead8-3286-4dce-9366-13ef87402887%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-05T22:05:20.9855622Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PD01i024_Server\\cassandra_custagreegraph_prod",
+            "Guid": "{4fe34ce8-9255-4a6c-a00e-c6dd2a4b48b9}",
+            "Name": "cassandra_custagreegraph_prod",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomNoSQLOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "cassandra_custagreegraph_prod",
+                "SANS": {
+                    "DNS": [
+                        "cassandra_custagreegraph_prod"
+                    ],
+                    "Email": [
+                        "dotcomnosqlops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300006080E07B391465FF0CF5000000006080",
+                "Thumbprint": "AF9A9DEE89CA5D17783695BD768D674FDC9BAE73",
+                "ValidFrom": "2020-03-10T14:36:05.0000000Z",
+                "ValidTo": "2021-04-04T14:36:05.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b4fe34ce8-9255-4a6c-a00e-c6dd2a4b48b9%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-06T23:05:58.6770959Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client\\bby-s-dcd",
+            "Guid": "{2ecd0c46-9043-41c2-b2e4-2ff902f76e7c}",
+            "Name": "bby-s-dcd",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Client",
+            "SchemaClass": "X509 Device Certificate",
+            "X509": {
+                "CN": "bby-s-dcd",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007B0EFD6C546967E79BDC000000007B0E",
+                "Thumbprint": "54A1EBB517747B95E0596AB13760AE19C678F95A",
+                "ValidFrom": "2021-02-05T08:23:03.0000000Z",
+                "ValidTo": "2022-03-02T08:23:03.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b2ecd0c46-9043-41c2-b2e4-2ff902f76e7c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-06T23:30:34.1986534Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\digital-content-distributor.prod.bestbuy.com",
+            "Guid": "{9b152f2b-910a-4186-b3ba-db05dae0caa4}",
+            "Name": "digital-content-distributor.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "digital-content-distributor.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "digital-content-distributor.prod.bestbuy.com",
+                        "digital-content-distributor.dr.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007A22D004AABA3FFE2DD7000000007A22",
+                "Thumbprint": "B3D5439904893006A51FBE51840C465FF1ACD0A7",
+                "ValidFrom": "2021-02-01T05:58:39.0000000Z",
+                "ValidTo": "2022-02-26T05:58:39.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b9b152f2b-910a-4186-b3ba-db05dae0caa4%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-07T18:54:50.7080607Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-rabbitmq-browse",
+            "Guid": "{7217649e-96e7-4905-afd9-72da5a290953}",
+            "Name": "bby-s-rabbitmq-browse",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\dotcomcloudops@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-rabbitmq-browse",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-rabbitmq-browse",
+                        "rabbitmq-svc-east.prod.browse.bestbuy.com",
+                        "rabbitmq-svc-east-ext.prod.browse.bestbuy.com",
+                        "rabbitmq-svc-west.prod.browse.bestbuy.com",
+                        "rabbitmq-svc-west-ext.prod.browse.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcomcloudops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000868E67C62FC12D72851400000000868E",
+                "Thumbprint": "F0B8E006706FD42406B461211B979B3BFD4C609A",
+                "ValidFrom": "2021-04-21T12:02:13.0000000Z",
+                "ValidTo": "2022-05-16T12:02:13.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b7217649e-96e7-4905-afd9-72da5a290953%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-09T02:06:56.1896458Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\af-rabbitmq.prod.bestbuy.com",
+            "Guid": "{e0da596d-db90-48be-a96b-febbd20cdc43}",
+            "Name": "af-rabbitmq.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "af-rabbitmq.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "af-rabbitmq.prod.bestbuy.com",
+                        "af-rabbitmq.dr.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007A25E74C1172323CE821000000007A25",
+                "Thumbprint": "298AD9DE1C4BC28C216B20312F8A5AA1168C3017",
+                "ValidFrom": "2021-02-01T06:15:10.0000000Z",
+                "ValidTo": "2022-02-26T06:15:10.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7be0da596d-db90-48be-a96b-febbd20cdc43%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-16T10:05:27.7172555Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-toolshed-dev",
+            "Guid": "{d3a427c1-bb95-4d3f-befb-f656fb4951cf}",
+            "Name": "bby-s-toolshed-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-toolshed-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-toolshed-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003354289235ED60C69BDF000000003354",
+                "Thumbprint": "7865B624347057D67621F02C287C03013A00110F",
+                "ValidFrom": "2020-01-30T07:14:33.0000000Z",
+                "ValidTo": "2022-01-29T07:14:33.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bd3a427c1-bb95-4d3f-befb-f656fb4951cf%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-17T03:44:32.9748607Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Client_Test\\bby-s-magellan-dev",
+            "Guid": "{0bdb88c2-a1d8-4644-a734-20b416cb590d}",
+            "Name": "bby-s-magellan-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Client_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-magellan-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-magellan-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033DA5B295E7B9C6B7A5D0000000033DA",
+                "Thumbprint": "94C71394D0E69BDA34EE39816C6C39043449DDE2",
+                "ValidFrom": "2020-02-07T10:33:42.0000000Z",
+                "ValidTo": "2022-02-06T10:33:42.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b0bdb88c2-a1d8-4644-a734-20b416cb590d%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-17T03:48:01.7205649Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-sitecontrol-dev",
+            "Guid": "{151d14a9-4f42-47cb-a300-8b230d1d7a57}",
+            "Name": "bby-s-sitecontrol-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-sitecontrol-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-sitecontrol-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003C3737CAF46F63D7E0CD000000003C37",
+                "Thumbprint": "8E87FC3F24CB34BC073DF46403FC0986E7E1585B",
+                "ValidFrom": "2020-08-18T07:26:55.0000000Z",
+                "ValidTo": "2022-08-18T07:26:55.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b151d14a9-4f42-47cb-a300-8b230d1d7a57%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-17T06:20:44.4988236Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Client_Test\\bby-s-polar-dev",
+            "Guid": "{4fd205e0-90e9-41e0-bd0d-8ebcacd6b20f}",
+            "Name": "bby-s-polar-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Client_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-polar-dev",
+                "SANS": {
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "520000339041EA50A62C664889000000003390",
+                "Thumbprint": "5ABDDBEFD4D9A4670C90D0DBA66ACD21F96C3509",
+                "ValidFrom": "2020-02-04T07:07:25.0000000Z",
+                "ValidTo": "2022-02-03T07:07:25.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b4fd205e0-90e9-41e0-bd0d-8ebcacd6b20f%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-17T06:37:11.2587528Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-content-publisher-dev",
+            "Guid": "{ab9b7256-52ce-4927-8ae4-e0ea9337cb27}",
+            "Name": "bby-s-content-publisher-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-content-publisher-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-content-publisher-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033914D49AE5950EA9D2C000000003391",
+                "Thumbprint": "501D9643FA53AE53E0C3F13A8DE71120102A560F",
+                "ValidFrom": "2020-02-04T09:10:27.0000000Z",
+                "ValidTo": "2022-02-03T09:10:27.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bab9b7256-52ce-4927-8ae4-e0ea9337cb27%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-20T11:10:38.6322727Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-configadmin-dev",
+            "Guid": "{3297b9f3-8279-47b2-9a05-19c8d45592f7}",
+            "Name": "bby-s-configadmin-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-configadmin-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-configadmin-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033A0FCBF0A56D6347DB60000000033A0",
+                "Thumbprint": "CB87957870716BC658F3808A43D45B645B3E38E1",
+                "ValidFrom": "2020-02-05T07:39:51.0000000Z",
+                "ValidTo": "2022-02-04T07:39:51.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b3297b9f3-8279-47b2-9a05-19c8d45592f7%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-20T11:11:45.2364999Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-configread-dev",
+            "Guid": "{218c1b7c-55b0-4d6e-a824-0068b6df70d0}",
+            "Name": "bby-s-configread-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-configread-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-configread-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033A164C61AE95819FF400000000033A1",
+                "Thumbprint": "C927D72C6C2D68A593C44182CE4C3D1E85BEF245",
+                "ValidFrom": "2020-02-05T09:19:19.0000000Z",
+                "ValidTo": "2022-02-04T09:19:19.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b218c1b7c-55b0-4d6e-a824-0068b6df70d0%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-20T11:12:47.9722594Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-span-publisher-dev",
+            "Guid": "{f5c6627e-5479-43a7-ac44-2c4b840f526a}",
+            "Name": "bby-s-span-publisher-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-span-publisher-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-span-publisher-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "520000339F0E238B7A22EC3A3900000000339F",
+                "Thumbprint": "FC8D8E27A313FA1D5CC45A068DFF0DE4EE12EBEA",
+                "ValidFrom": "2020-02-05T05:18:06.0000000Z",
+                "ValidTo": "2022-02-04T05:18:06.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bf5c6627e-5479-43a7-ac44-2c4b840f526a%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-28T09:50:48.9046840Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\images-af.bestbuy.com",
+            "Guid": "{1ff08ceb-3761-4e4e-a358-efc8750b3169}",
+            "Name": "images-af.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "images-af.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "images-af.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007B25010C66BC0C1EF58B000000007B25",
+                "Thumbprint": "ED29D4EF907A82F2DE36976FAB773129B05D4020",
+                "ValidFrom": "2021-02-08T15:43:29.0000000Z",
+                "ValidTo": "2022-03-05T15:43:29.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b1ff08ceb-3761-4e4e-a358-efc8750b3169%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-28T10:40:51.7206271Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\Phoenix-dev@bestbuy.com\\NA_PT01i024_ClientServer_Test\\Phoenix-dev",
+            "Guid": "{4dc209ef-c25d-413f-9427-4bef4a63f8bb}",
+            "Name": "Phoenix-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\Phoenix-dev@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "BBY-S-PHOENIX-DEV",
+                "SANS": {
+                    "DNS": [
+                        "BBY-S-PHOENIX-DEV"
+                    ],
+                    "Email": [
+                        "cargo@bestbuy.com"
+                    ]
+                },
+                "Serial": "520000341878B368C14D4B028D000000003418",
+                "Thumbprint": "8124E84BFAD11FE161E674A1CB04A1E4734B37D5",
+                "ValidFrom": "2020-02-19T05:42:04.0000000Z",
+                "ValidTo": "2022-02-18T05:42:04.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b4dc209ef-c25d-413f-9427-4bef4a63f8bb%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-29T11:12:53.7764124Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\stsadmin.prod.bestbuy.com",
+            "Guid": "{9028cbd2-2871-4494-8123-7daac24bf0fe}",
+            "Name": "stsadmin.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "stsadmin.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "stsadmin.dr.bestbuy.com",
+                        "stsadmin.prod.bestbuy.com",
+                        "stsadmin-a.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007B1D3FEC00F307AD3BA3000000007B1D",
+                "Thumbprint": "AABF65B25B68A96CF9E4BB109F1413A5D962E61E",
+                "ValidFrom": "2021-02-08T13:29:47.0000000Z",
+                "ValidTo": "2022-03-05T13:29:47.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b9028cbd2-2871-4494-8123-7daac24bf0fe%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-29T13:25:03.4150251Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test\\order-selfservice-app.stage.bestbuy.com",
+            "Guid": "{627f96be-8094-4b79-a54c-c221439e1852}",
+            "Name": "order-selfservice-app.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "order-selfservice-app.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "order-selfservice-app.stage.bestbuy.com",
+                        "order-selfservice-app.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033F43A80E0ED17CD706C0000000033F4",
+                "Thumbprint": "D66A9A1D4F60A1BE4ABDDA13C22F290EB5B20656",
+                "ValidFrom": "2020-02-13T09:10:23.0000000Z",
+                "ValidTo": "2022-02-12T09:10:23.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b627f96be-8094-4b79-a54c-c221439e1852%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-29T13:45:40.2831037Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test\\federated-transactions.stage.bestbuy.com",
+            "Guid": "{72082d18-0b08-42ce-9160-e03eac8edced}",
+            "Name": "federated-transactions.stage.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_Server_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "federated-transactions.stage.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "federated-transactions.stage.bestbuy.com",
+                        "federated-transactions.test.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000033F5A37EE2A9D97F470E0000000033F5",
+                "Thumbprint": "E2C191062499469680CC38C2FEBABB2E4F9CDDC7",
+                "ValidFrom": "2020-02-13T09:11:43.0000000Z",
+                "ValidTo": "2022-02-12T09:11:43.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b72082d18-0b08-42ce-9160-e03eac8edced%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-29T13:47:22.0842301Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\federated-transactions.prod.bestbuy.com",
+            "Guid": "{d6aee439-b6a9-4333-987b-c00419e60e02}",
+            "Name": "federated-transactions.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "federated-transactions.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "federated-transactions.dr.bestbuy.com",
+                        "federated-transactions.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000679B4769B5C95102CAD700000000679B",
+                "Thumbprint": "3AF0C4C1D88754E99D39A1561047F6EA76B57A46",
+                "ValidFrom": "2020-05-21T07:38:19.0000000Z",
+                "ValidTo": "2021-06-15T07:38:19.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bd6aee439-b6a9-4333-987b-c00419e60e02%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-03-29T13:49:15.4440273Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server\\order-selfservice-app.prod.bestbuy.com",
+            "Guid": "{deb26eb0-8f10-40d7-9feb-13cc094113d1}",
+            "Name": "order-selfservice-app.prod.bestbuy.com",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_Server",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "order-selfservice-app.prod.bestbuy.com",
+                "SANS": {
+                    "DNS": [
+                        "order-selfservice-app.dr.bestbuy.com",
+                        "order-selfservice-app.prod.bestbuy.com",
+                        "order-selfservice-app-a.prod.bestbuy.com",
+                        "order-selfservice-app-b.prod.bestbuy.com"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000679D7875A62EE657F68600000000679D",
+                "Thumbprint": "7A1829B356099E0BB434339725A587C4B52F279E",
+                "ValidFrom": "2020-05-21T07:42:11.0000000Z",
+                "ValidTo": "2021-06-15T07:42:11.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bdeb26eb0-8f10-40d7-9feb-13cc094113d1%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-04-02T05:31:56.0103866Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\Basket",
+            "Guid": "{1c3c66f6-ad4a-4959-952b-6f5605862ce9}",
+            "Name": "Basket",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-basket-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-basket-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "52000034001047FAA1CD31A51D000000003400",
+                "Thumbprint": "516479D1285E456CFD014F2D0A725924ABA2AE60",
+                "ValidFrom": "2020-02-17T04:42:06.0000000Z",
+                "ValidTo": "2022-02-16T04:42:06.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b1c3c66f6-ad4a-4959-952b-6f5605862ce9%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-04-02T05:33:11.4980666Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test\\bby-s-coral-dev",
+            "Guid": "{cf9d2162-5da2-4617-bce3-1f0eaf4657ef}",
+            "Name": "bby-s-coral-dev",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PT01i024_ClientServer_Test",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-coral-dev",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-coral-dev"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "5200003402F82EED77FB451714000000003402",
+                "Thumbprint": "5C615DED7715241AA07A678760D3F5C34D7BEE75",
+                "ValidFrom": "2020-02-17T07:52:50.0000000Z",
+                "ValidTo": "2022-02-16T07:52:50.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7bcf9d2162-5da2-4617-bce3-1f0eaf4657ef%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-04-09T07:53:16.8878230Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\bby-s-covertchat",
+            "Guid": "{597ba499-b9be-4207-8e5d-80785bdb3f9c}",
+            "Name": "bby-s-covertchat",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "bby-s-covertchat",
+                "SANS": {
+                    "DNS": [
+                        "bby-s-covertchat"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "1300007ED932B8852F69761EE1000000007ED9",
+                "Thumbprint": "B7DA9D6A38924867739B5706104A6E051915AB20",
+                "ValidFrom": "2021-02-25T05:03:53.0000000Z",
+                "ValidTo": "2022-03-22T05:03:53.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b597ba499-b9be-4207-8e5d-80785bdb3f9c%7d"
+                }
+            ]
+        },
+        {
+            "CreatedOn": "2018-04-10T06:25:44.5646543Z",
+            "DN": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer\\pdw11tlfapp101.bby",
+            "Guid": "{55fd4af6-8ef2-42bb-afcb-29b70bf672b2}",
+            "Name": "pdw11tlfapp101.bby",
+            "ParentDn": "\\VED\\Policy\\Certificates\\Certificate Owners\\DotcomInfraOps@bestbuy.com\\NA_PD01i024_ClientServer",
+            "SchemaClass": "X509 Server Certificate",
+            "X509": {
+                "CN": "pdw11tlfapp101.bby",
+                "SANS": {
+                    "DNS": [
+                        "pdw11tlfapp101.bby"
+                    ],
+                    "Email": [
+                        "dotcominfraops@bestbuy.com"
+                    ]
+                },
+                "Serial": "130000607018211BAD7B466DED000000006070",
+                "Thumbprint": "0AF63FB934AC236FFCD914BF0673BC6D4FA5B50B",
+                "ValidFrom": "2020-03-10T06:56:16.0000000Z",
+                "ValidTo": "2021-04-04T06:56:16.0000000Z"
+            },
+            "_links": [
+                {
+                    "Details": "/vedsdk/certificates/%7b55fd4af6-8ef2-42bb-afcb-29b70bf672b2%7d"
+                }
+            ]
+        }
+    ],
+    "DataRange": "Certificates 1 - 100",
+    "TotalCount": 1826,
+    "_links": [
+        {
+            "Next": "/vedsdk/certificates?offset=100&limit=100"
+        }
+    ]
+}
