@@ -2,11 +2,7 @@ import json
 import boto3
 
 elb = boto3.client('elbv2')
-def flatten(list):
-    flatten_list=[val for sublist in list for val in sublist]
-    return flatten_list
-            
-    
+   
 #----This Function lists all the ALB's-----#
 def listalbarn():
     lbs = elb.describe_load_balancers()
